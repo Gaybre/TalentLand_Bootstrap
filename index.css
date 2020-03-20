@@ -8,8 +8,24 @@
     text-align: center;
 }
 
+/*----------Carousel ------------*/
+.plus {
+    color: #2EB620;
+}
+h3 {
+    color: #020247;
+    font-weight: 800;
+    font-size: 6vh;
+    text-align: center;
+}
+.carousel-indicators li {
+    background-color: #2EB620;   
+}
+
+/*----------Footer ------------*/
 #footer {
     background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+    margin-top: 50px;
 }
 #footer a {
     color: white;
