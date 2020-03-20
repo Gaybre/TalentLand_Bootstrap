@@ -1,0 +1,27 @@
+#footer {
+    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+#footer a {
+    color: white;
+}
+.txtFooter {
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+.txtSuscribe {
+    width: 70%;
+    border: none;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btnSuscribe {
+    background: #2EB620;
+    color: white;
+    border: none;
+    padding: 5px;
+    box-sizing: border-box;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
