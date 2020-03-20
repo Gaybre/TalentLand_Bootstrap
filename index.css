@@ -1,3 +1,13 @@
+#header img {
+    width: 150px;
+}
+.txtEntradas {
+    border: 2px solid #2EB620;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
 #footer {
     background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
 }
