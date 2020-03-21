@@ -7,7 +7,26 @@
     padding: 5px;
     text-align: center;
 }
-
+.main {
+    background-image: url(https://www.talent-land.mx/wp-content/uploads/2020/01/tl2020-home-banner-enero-background-01.jpg),linear-gradient(160deg,#2eb620 0%,#2b285a 40%);
+}
+.talentRow {
+    background: rgba(0, 0, 0, .2);
+    padding: 10px;
+}
+.getTicket {
+    background-color: #2EB620;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px 25px;
+    border-radius: 25px;
+}
+.getTicket:hover {
+    color: #020247;
+    text-decoration: none;
+    font-weight: bold;
+}
 /*----------Carousel ------------*/
 .plus {
     color: #2EB620;
