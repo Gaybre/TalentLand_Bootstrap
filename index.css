@@ -15,19 +15,36 @@
     padding: 10px;
 }
 .getTicket {
-    background-color: #2EB620;
     color: white;
     font-size: 20px;
-    font-weight: bold;
-    padding: 5px 25px;
     border-radius: 25px;
+    outline: none;
 }
 .getTicket:hover {
-    color: #020247;
+    background-color: #2EB620;
     text-decoration: none;
     font-weight: bold;
 }
-/*----------Carousel ------------*/
+.imgTransform {
+    transition: 500ms;
+}
+.imgTransform:hover {
+    transform: scale(1.3);
+}
+
+/*---------- Speakers ------------*/
+#speakers {
+    background-image: url(https://www.talent-land.mx/wp-content/uploads/2019/04/bg-08-2020-3.jpg);
+    background-attachment: fixed;
+}
+.speakersTitle {
+    color: white;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 29px;
+    text-shadow: 0.15em 0.16em 0em rgba(0,0,0,0.4);
+}
+/*---------- Carousel ------------*/
 .plus {
     color: #2EB620;
 }
@@ -55,9 +72,7 @@ h3 {
     text-align: center;
 }
 .txtSuscribe {
-    width: 70%;
     border: none;
-    padding: 5px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
 }
@@ -65,8 +80,13 @@ h3 {
     background: #2EB620;
     color: white;
     border: none;
-    padding: 5px;
+    outline: none;
     box-sizing: border-box;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
 }
+.btnSuscribe:hover {
+    color: #273b47;
+}
+
+/*------------- animations -----------*/
