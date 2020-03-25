@@ -36,6 +36,7 @@
 #speakers {
     background-image: url(https://www.talent-land.mx/wp-content/uploads/2019/04/bg-08-2020-3.jpg);
     background-attachment: fixed;
+    background-size: cover;
 }
 .speakersTitle {
     color: white;
@@ -48,7 +49,7 @@
 .plus {
     color: #2EB620;
 }
-h3 {
+.titleSponsors {
     color: #020247;
     font-weight: 800;
     font-size: 6vh;
