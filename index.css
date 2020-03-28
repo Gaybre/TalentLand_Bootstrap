@@ -1,6 +1,44 @@
 #header img {
     width: 150px;
 }
+/*---------- Social ------------*/
+.social {
+    width: 70px;
+    position: fixed;
+    margin-top: 20%;
+    margin-left: -20px;
+}
+.socialDiv {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: 250ms;
+}
+.socialDiv:hover {
+    transform: translate(15px,0);
+}
+.socialTW {
+    background: #23bae0;
+}
+.socialLK {
+    background: #1e73be;
+}
+.socialIG {
+    background: #ac23dd;
+}
+.socialGH {
+    background: #24292e;
+}
+.socialImg {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+/*---------- /Social ------------*/
+
 .txtEntradas {
     border: 2px solid #2EB620;
     border-radius: 25px;
@@ -36,12 +74,16 @@
     background-attachment: fixed;
     background-size: cover;
 }
-.speakersTitle {
+.secondTitle {
     color: white;
     font-weight: 800;
     font-style: italic;
     font-size: 29px;
     text-shadow: 0.15em 0.16em 0em rgba(0,0,0,0.4);
+    transition: 400ms;
+}
+.secondTitle:hover {
+    color: #2EB620;
 }
 .aPlayIcon {
     opacity: 0;
@@ -98,6 +140,11 @@
     color: white;
     margin: 0px;
     text-align: center;
+}
+.footerSuscribe {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
 .txtSuscribe {
     border: none;
