@@ -1,10 +1,18 @@
 #header img {
     width: 150px;
 }
+.txtEntradas {
+    border: 2px solid #2EB620;
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+}
+
 /*---------- Social ------------*/
 .social {
     width: 70px;
     position: fixed;
+    top: 0;
     margin-top: 20%;
     margin-left: -20px;
 }
@@ -36,16 +44,9 @@
     height: 25px;
     cursor: pointer;
 }
-
 /*---------- /Social ------------*/
 
-.txtEntradas {
-    border: 2px solid #2EB620;
-    border-radius: 25px;
-    padding: 5px;
-    text-align: center;
-}
-.main {
+.entrada {
     background-image: url(https://www.talent-land.mx/wp-content/uploads/2020/01/tl2020-home-banner-enero-background-01.jpg),linear-gradient(160deg,#2eb620 0%,#2b285a 40%);
 }
 .talentRow {
@@ -53,13 +54,12 @@
     padding: 10px;
 }
 .getTicket {
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 8px;
     outline: none;
 }
 .getTicket:hover {
     text-decoration: none;
-    font-weight: bold;
 }
 .imgTransform {
     transition: 500ms;
@@ -67,9 +67,8 @@
 .imgTransform:hover {
     transform: scale(1.3);
 }
-
 /*---------- Speakers ------------*/
-#speakers {
+.main {
     background-image: url(https://www.talent-land.mx/wp-content/uploads/2019/04/bg-08-2020-3.jpg);
     background-attachment: fixed;
     background-size: cover;
@@ -85,10 +84,17 @@
 .secondTitle:hover {
     color: #2EB620;
 }
+.titleBig {
+    font-size: 100px;
+}
+
+
 .aPlayIcon {
     opacity: 0;
     margin-left: -50px;
-    transition: 200ms;
+    transition: 300ms;
+    background-color: #2EB620;
+    border: 0px;
 }
 .playIcon {
     width: 20px;
@@ -104,7 +110,7 @@
 .btnVisitChanel:hover ~ .aPlayIcon, .aPlayIcon:hover {
     opacity: 1;
     border: 0px;
-    Margin-left: -15px;
+    margin-left: -15px;
     background-color: #2EB620;
 }
 .aPlayIcon:hover ~ .btnVisitChanel {
