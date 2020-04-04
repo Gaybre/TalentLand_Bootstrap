@@ -7,6 +7,12 @@
     padding: 5px;
     text-align: center;
 }
+.menuTierras:hover ~ .submenuTierras {
+    display: block;
+}
+.submenuTierras:hover {
+    display: block;
+}
 
 /*---------- Social ------------*/
 .social {
@@ -57,10 +63,9 @@
 .getTicket {
     font-size: 18px;
     border-radius: 8px;
-    outline: none;
 }
-.getTicket:hover {
-    text-decoration: none;
+.ticketIcon {
+    width: 30px;
 }
 .imgTransform {
     transition: 500ms;
@@ -93,6 +98,7 @@
 }
 .secondTitle:hover {
     color: #2EB620;
+    text-decoration: none;
 }
 .titleBig {
     font-size: 100px;
@@ -107,19 +113,7 @@
     color: white;
 }
 
-.aPlayIcon {
-    opacity: 0;
-    margin-left: -50px;
-    transition: 300ms;
-    background-color: #2EB620;
-    border: 0px;
-}
-.speakerIcon {
-    width: 30px;
-}
-.playIcon {
-    width: 20px;
-}
+
 .btnVisitChanel {
     background-color: #2EB620;
     border: 0px;
@@ -128,31 +122,60 @@
     background-color: #2EB620;
     border: 0px;
 }
-.btnVisitChanel:hover ~ .aPlayIcon, .aPlayIcon:hover {
+.btnVisitChanel:hover .btnIcon, .btnIcon:hover {
     opacity: 1;
-    border: 0px;
-    margin-left: -15px;
-    background-color: #2EB620;
+    margin-left: 5px !important;
 }
-.aPlayIcon:hover ~ .btnVisitChanel {
-    background-color: #2EB620;
-    border: 0px;
+.btnIcon {
+    opacity: 0;
+    transition: 300ms;
 }
+.playIcon {
+    width: 20px;
+}
+.speakerIcon {
+    width: 30px;
+}
+
 
 .edicion18 {
     background-image: url(https://www.talent-land.mx/wp-content/uploads/2020/03/tl2020-banner-home-ediciones-ant-2018.jpg);
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
-    height: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .6);
 }
 .edicion19 {
     background-image: url(https://www.talent-land.mx/wp-content/uploads/2020/03/tl2020-banner-home-ediciones-ant-2019.jpg);
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
-    height: 50px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 2px rgba(0, 0, 0, .6);
 }
+.ediciontxt {
+    padding: 20px 0px;
+}
+.edicion {
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+}
+.edicion:hover {
+    color: #2EB620;
+    text-decoration: none;
+}
+.ediciones__col {
+    transition: 300ms;
+}
+.ediciones__row:hover .ediciones__col:hover {
+    transform: translate3d(0, -10px, 0);
+}
+.ediciones__col:hover .ediciontxt {
+    background-color: rgba(255, 255, 255, .1);
+}
+
 /*---------------------------- /Principal ----------------------------*/
 
 /*---------- Carousel ------------*/
@@ -208,4 +231,3 @@
     color: #273b47;
 }
 /*---------- /Footer ------------*/
-/*------------- animations -----------*/
