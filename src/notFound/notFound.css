@@ -1,0 +1,118 @@
+html, body {
+    height: 100%;
+}
+#header img {
+    width: 150px;
+}
+.txtVolver {
+    color: white;
+    font-size: 20px;
+}
+.txtVolver:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.returnIcon {
+    width: 40px !important;
+}
+
+/*---------- Social ------------*/
+.social {
+    width: 70px;
+    position: fixed;
+    top: 0;
+    margin-top: 20%;
+    margin-left: -20px;
+}
+.socialDiv {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: 250ms;
+}
+.socialDiv:hover {
+    transform: translate(15px,0);
+}
+.socialTW {
+    background: #23bae0;
+}
+.socialLK {
+    background: #1e73be;
+}
+.socialIG {
+    background: #ac23dd;
+}
+.socialGH {
+    background: #24292e;
+}
+.socialImg {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+/*---------- /Social ------------*/
+
+/*---------- Main ------------*/
+#main {
+    background-image: url(https://www.talent-land.mx/wp-content/uploads/2019/04/bg-08-2020-3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: calc(100vh - 200px);
+}
+.notFound {
+    width: 300px;
+}
+.text {
+    color: #2EB620;
+    font-weight: 700;
+    font-size: 40px;
+    text-shadow: 0.15em 0.16em 0em rgba(0,0,0,0.4);
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+/*---------- /Main ------------*/
+
+/*---------- Footer ------------*/
+#footer {
+    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+#footer a {
+    color: white;
+}
+.txtFooter {
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+.footerSuscribe {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.txtSuscribe {
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.btnSuscribe {
+    background: #2EB620;
+    color: white;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.btnSuscribe:hover {
+    color: #273b47;
+}
+/*---------- /Footer ------------*/
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.5);}
+    100% {transform: scale(1);}
+}
