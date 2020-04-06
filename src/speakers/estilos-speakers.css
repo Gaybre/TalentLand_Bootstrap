@@ -31,13 +31,7 @@ html, body {
 .imgMainStage {
     width: 200px
 }
-.name {
-    color: white;
-}
-.cargo {
-    color: white;
-}
-.description {
+.name, .cargo, .description {
     color: white;
 }
 .btnVolver{
