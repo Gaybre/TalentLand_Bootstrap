@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+}
+#header img {
+    width: 150px;
+}
+.txtVolver {
+    color: white;
+    font-size: 20px;
+}
+.txtVolver:hover {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+.returnIcon {
+    width: 40px !important;
+}
+
+/*---------- Main ------------*/
+#main {
+    background-image: url(https://www.talent-land.mx/wp-content/uploads/2019/09/tl2020-landing-gracias-background-pattern-01.png),linear-gradient(180deg,#005752 0%,#0f1b3e 100%);
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: calc(100vh - 200px);
+}
+.description__div {
+    background-color:  rgba(255, 255, 255, .2);
+    border-radius: 10px;
+}
+.imgMainStage {
+    width: 200px
+}
+.name {
+    color: white;
+}
+.cargo {
+    color: white;
+}
+.description {
+    color: white;
+}
+.btnVolver{
+    margin-top: 150px;
+}
+.btnVolver:hover {
+    background: #2EB620;
+    width: 40%;
+}
+/*---------- /Main ------------*/
+
+/*---------- Social ------------*/
+.social {
+    width: 70px;
+    position: fixed;
+    top: 0;
+    margin-top: 20%;
+    margin-left: -20px;
+}
+.socialDiv {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    transition: 250ms;
+}
+.socialDiv:hover {
+    transform: translate(15px,0);
+}
+.socialTW {
+    background: #23bae0;
+}
+.socialLK {
+    background: #1e73be;
+}
+.socialIG {
+    background: #ac23dd;
+}
+.socialGH {
+    background: #24292e;
+}
+.socialImg {
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+/*---------- /Social ------------*/
+
+/*---------- Footer ------------*/
+#footer {
+    background: linear-gradient(90deg, #1c3643, #273b47 25%, #1e5372);
+}
+#footer a {
+    color: white;
+}
+/*---------- /Footer ------------*/
