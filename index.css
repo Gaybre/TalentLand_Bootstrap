@@ -177,25 +177,37 @@
 }
 
 
-.container__getTicket {
-    background-color: rgba(0, 0, 0, .7);
-    border-radius: 5px;
-}
 #comprarTickets {
     background-image: url(https://www.talent-land.mx/wp-content/uploads/2019/05/bg-09-certificado.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
+.container__getTicket {
+    background-color: rgba(0, 0, 0, .7);
+    border-radius: 5px;
+}
+.titleCostos {
+    color: white;
+    font-size: 25px;
+}
 .txtCostos {
     color: white;
     font-weight: 500;
+}
+.infoCostos {
+    padding: 3px 10px;
+    border-radius: 150px;
+    background: white;
+    text-decoration: none;
 }
 .precio {
     font-size: 30px;
     font-weight: 700;
     color: #2EB620;
 }
-
+.tooltip_underline {
+    text-decoration: none !important;
+}
 /*---------------------------- /Principal ----------------------------*/
 
 /*---------- Carousel ------------*/
