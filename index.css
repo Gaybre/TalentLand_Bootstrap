@@ -224,6 +224,13 @@
 .tooltip_underline {
     text-decoration: none !important;
 }
+ul {
+    padding: 2px 0;
+}
+li {
+    text-align: left;
+    list-style: none;
+}
 /*---------------------------- /Principal ----------------------------*/
 
 /*---------- Carousel ------------*/
