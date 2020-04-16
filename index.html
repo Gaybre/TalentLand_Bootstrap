@@ -11,7 +11,7 @@
         <link rel="icon" type="icon" href="https://www.talent-land.mx/wp-content/uploads/2019/01/favicon.png">
         <title>Talent Land</title>
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#navbar" data-offset="80">
         <!-- Header -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" id="header">
             <div class="container">
@@ -22,13 +22,10 @@
                   <span class="navbar-toggler-icon"></span>
                 </button>
               
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" id="navbar">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                          <a class="nav-link txtEntradas" href="#comprarTickets">Entradas</a>
-                        </li>
                         <li class="nav-item">
-                          <a class="nav-link" href="#speakers">Speakers</a>
+                          <a class="nav-link txtEntradas" href="#comprarTickets">Entradas</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle menuTierras" href="#tierrasContenido">
@@ -46,6 +43,9 @@
                               <a class="dropdown-item" href="#">Gamer Land</a>
                               <a class="dropdown-item" href="#">Iron Land</a>
                             </div>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#speakers">Speakers</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Universidades</a>
@@ -71,7 +71,7 @@
                 <div class="row py-4">
                     <div class="col 12 col-sm-12 col-md-12 col-lg-6">
                         <div class="col w-50 mx-auto">
-                            <img class="w-100 imgTransform" src="https://www.talent-land.mx/wp-content/uploads/2019/12/cl2019-jalisco-talent-land-2020-logo-03-350x148.png" alt="talent-land">
+                            <img class="w-100" src="https://www.talent-land.mx/wp-content/uploads/2019/12/cl2019-jalisco-talent-land-2020-logo-03-350x148.png" alt="talent-land">
                         </div>
                     </div>
                     <div class="col-sm-12 col-md-12 col-lg-6">
@@ -567,20 +567,21 @@
                             <h2 class="secondTitle">Consigue tu entrada a Jalisco Talent Land 2020</h2>
                         </div>
                     </div>
+                    
                     <div class="row  pt-5">
-                        <div class="col container__getTicket p-4">
+                        <div class="col container__getTicket p-3">
                             <div class="row">
 
-                                <div class="col-12 col-md-4">
+                                <div class="col-12 col-md-4 pb-5 pb-md-0">
                                     <div class="row">
                                         <div class="col text-center">
                                             <p class="titleCostos">1 ENTRADA NORMAL</p>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row pb-4">
                                         <div class="col text-center">
-                                            <p>
-                                                <abbr class="tooltip_underline" data-toggle="tooltip" data-html="true" data-placement="bottom" title="
+                                            <abbr class="tooltip_underline" data-toggle="tooltip" data-html="true" data-placement="bottom" title="
+                                                <small>
                                                     <ul>
                                                         <li>✔️Entrada al recinto Expo Guadalajara 5 días 24 horas.</li>
                                                         <li>✔️Podrás salir y entrar las veces que desees.</li>
@@ -588,14 +589,14 @@
                                                         <li>✔️Poder participar en TODOS los talleres, concursos, conferencias y actividades las 24 horas del día.</li>
                                                         <li>✔️Visita a los stands de toda la zona de exposición.</li>
                                                         <li>❌NO incluye camping.</li>
-                                                    </ul>">
-                                                    <span class="infoCostos">
-                                                        <strong>
-                                                            ?
-                                                        </strong>
-                                                    </span>
-                                                </abbr>
-                                            </p>
+                                                    </ul>
+                                                </small>">
+                                                <span class="infoCostos">
+                                                    <strong>
+                                                        ?
+                                                    </strong>
+                                                </span>
+                                            </abbr>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -615,21 +616,21 @@
                                     </div>
                                     <div class="row">
                                         <div class="col text-center">
-                                            <a href="./src/notFound/notFound.html" class="btn btn-success">Comprar con PayPal</a>
+                                            <a href="#" data-target="#modalCompra" data-toggle="modal" class="btn btn-success">Comprar con PayPal</a>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-12 col-md-4">
+                                <div class="col-12 col-md-4 pb-5 pb-md-0">
                                     <div class="row">
                                         <div class="col text-center">
                                             <p class="titleCostos">1 ENTRADA VIP</p>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row pb-4">
                                         <div class="col text-center">
-                                            <p>
-                                                <abbr class="tooltip_underline" data-toggle="tooltip" data-html="true" data-placement="bottom" title="
+                                            <abbr class="tooltip_underline" data-toggle="tooltip" data-html="true" data-placement="bottom" title="
+                                                <small>
                                                     <ul>
                                                         <li>✔️Welcome Pack con mochila oficial, pack de stickers y regalos de sponsors.</li>
                                                         <li>✔️Acceso exclusivo al evento por entrada de Av. De las Rosas.</li>
@@ -638,14 +639,14 @@
                                                         <li>✔️Fila especial con preferencia para firmas y fotos con speakers.</li>
                                                         <li>✔️Inscripción preferente a torneos de GamerLand.</li>
                                                         <li>✔️Inscripción preferente en Talent Match.</li>
-                                                    </ul>">
-                                                    <span class="infoCostos">
-                                                        <strong>
-                                                            ?
-                                                        </strong>
-                                                    </span>
-                                                </abbr>
-                                            </p>
+                                                    </ul>
+                                                </small>">
+                                                <span class="infoCostos">
+                                                    <strong>
+                                                        ?
+                                                    </strong>
+                                                </span>
+                                            </abbr>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -665,33 +666,33 @@
                                     </div>
                                     <div class="row">
                                         <div class="col text-center">
-                                            <a href="./src/notFound/notFound.html" class="btn btn-success">Comprar con PayPal</a>
+                                            <a href="#" data-target="#modalCompra" data-toggle="modal" class="btn btn-success">Comprar con PayPal</a>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-12 col-md-4">
+                                <div class="col-12 col-md-4 pb-0">
                                     <div class="row">
                                         <div class="col text-center">
                                             <p class="titleCostos">1 CAMPING DOBLE</p>
                                         </div>
                                     </div>
-                                    <div class="row text-center">
-                                        <div class="col">
-                                            <p>
-                                                <abbr class="tooltip_underline" data-toggle="tooltip" data-html="true" data-placement="bottom" title="
+                                    <div class="row pb-4">
+                                        <div class="col text-center">
+                                            <abbr class="tooltip_underline" data-toggle="tooltip" data-html="true" data-placement="bottom" title="
+                                                <small>
                                                     <ul>
                                                         <li>✔️Acceso a regaderas.</li>
                                                         <li>✔️Una casa de campaña individual o compartida para dormir en el recinto (Ambas personas deberán comprar la entrada individual a Talent Land, sólo uno de ustedes debe comprar el camping para compartirlo).</li>
                                                         <li>❗ El espacio será asignado en sitio con estricto orden de llegada.</li>
-                                                    </ul>">
-                                                    <span class="infoCostos">
-                                                        <strong>
-                                                            ?
-                                                        </strong>
-                                                    </span>
-                                                </abbr>
-                                            </p>
+                                                    </ul>
+                                                </small>">
+                                                <span class="infoCostos">
+                                                    <strong>
+                                                        ?
+                                                    </strong>
+                                                </span>
+                                            </abbr>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -711,7 +712,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col text-center">
-                                            <a href="./src/notFound/notFound.html" class="btn btn-success">Comprar con PayPal</a>
+                                            <a href="#" data-target="#modalCompra" data-toggle="modal" class="btn btn-success">Comprar con PayPal</a>
                                         </div>
                                     </div>
                                 </div>
@@ -722,33 +723,33 @@
 
 
                     <div class="row  pt-5">
-                        <div class="col container__getTicket p-4">
+                        <div class="col container__getTicket p-3">
                             <div class="row">
 
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-md-6 pb-5 pb-md-0">
                                     <div class="row">
                                         <div class="col text-center">
                                             <p class="titleCostos">2 ENTRADAS SENCILLAS + CAMPING</p>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row pb-4">
                                         <div class="col text-center">
-                                            <p>
-                                                <abbr class="tooltip_underline" data-toggle="tooltip" data-html="true" data-placement="bottom" title="
+                                            <abbr class="tooltip_underline" data-toggle="tooltip" data-html="true" data-placement="bottom" title="
+                                                <small>
                                                     <ul>
                                                         <li>✔️2 entradas al recinto Expo Guadalajara 5 días 24 horas. Podrás salir y entrar las veces que desees.</li>
                                                         <li>✔️WiFi de 2 bandas (2 ghz y 5 ghz) para 2 dispositivos en todo el sitio.</li>
                                                         <li>✔️Poder participar en TODOS los talleres, concursos, conferencias y actividades las 24 horas del día.</li>
                                                         <li>✔️Visita a los stands de toda la zona de exposición.</li>
                                                         <li>✔️Incluye camping.</li>
-                                                    </ul>">
-                                                    <span class="infoCostos">
-                                                        <strong>
-                                                            ?
-                                                        </strong>
-                                                    </span>
-                                                </abbr>
-                                            </p>
+                                                    </ul>
+                                                </small>">
+                                                <span class="infoCostos">
+                                                    <strong>
+                                                        ?
+                                                    </strong>
+                                                </span>
+                                            </abbr>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -763,21 +764,21 @@
                                     </div>
                                     <div class="row">
                                         <div class="col text-center">
-                                            <a href="./src/notFound/notFound.html" class="btn btn-success">Comprar con PayPal</a>
+                                            <a href="#" data-target="#modalCompra" data-toggle="modal" class="btn btn-success">Comprar con PayPal</a>
                                         </div>
                                     </div>
                                 </div>
 
-                                <div class="col-12 col-md-6">
+                                <div class="col-12 col-md-6 pb-0">
                                     <div class="row">
                                         <div class="col text-center">
                                             <p class="titleCostos">2 ENTRADAS VIP + CAMPING</p>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <div class="row pb-4">
                                         <div class="col text-center">
-                                            <p>
-                                                <abbr class="tooltip_underline" data-toggle="tooltip" data-html="true" data-placement="bottom" title="
+                                            <abbr class="tooltip_underline w-100" data-toggle="tooltip" data-html="true" data-placement="bottom" title="
+                                                <small>
                                                     <ul>
                                                         <li>✔️2 entradas VIP.</li>
                                                         <li>✔️Welcome Pack con mochila oficial, pack de stickers y regalos de sponsors.</li>
@@ -789,14 +790,14 @@
                                                         <li>✔️Inscripción preferente en Talent Match.</li>
                                                         <li>✔️Más beneficios por anunciar.</li>
                                                         <li>✔️Incluye camping.</li>
-                                                    </ul>">
-                                                    <span class="infoCostos">
-                                                        <strong>
-                                                            ?
-                                                        </strong>
-                                                    </span>
-                                                </abbr>
-                                            </p>
+                                                    </ul>
+                                                </small>">
+                                                <span class="infoCostos">
+                                                    <strong>
+                                                        ?
+                                                    </strong>
+                                                </span>
+                                            </abbr>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -811,7 +812,7 @@
                                     </div>
                                     <div class="row">
                                         <div class="col text-center">
-                                            <a href="./src/notFound/notFound.html" class="btn btn-success">Comprar con PayPal</a>
+                                            <a href="#" data-target="#modalCompra" data-toggle="modal" class="btn btn-success">Comprar con PayPal</a>
                                         </div>
                                     </div>
                                 </div>
@@ -834,7 +835,7 @@
 
         <!-- Carousel-->
         <section class="container" id="sponsorsContainer">
-            <h3 class="titleSponsors">
+            <h3 class="titleSponsors pt-5">
                 <span class="plus">+</span>
                 Sponsors
             </h3>
@@ -931,6 +932,59 @@
             </div>
         </footer>
         <!-- /Footer -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="modalCompra" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalCenterTitle">Comprar Tickets</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <h6 class="m-0 pb-4">Ingresa tus datos para continuar<small> *Todos los campos son obligatorios *</small></h6>
+                        </div>
+                    </div>
+
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Nombre(s)">
+                            </div>
+                            <div class="form-group col-12 col-md-6">
+                                <input type="text" class="form-control" placeholder="Apellidos">
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group col">
+                                <input type="email" class="form-control" placeholder="Correo Electronico">
+                                <small id="emailHelp" class="form-text text-muted">No compartiremos tus datos con nadie.</small>
+                            </div>
+                        </div>
+                        <div class="form-row text-center mt-4 mb-2">
+                            <div class="form-group form-check w-100 m-auto">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                <label class="form-check-label" for="exampleCheck1">Acepto los terminos y condiciones</label>
+                            </div>
+                        </div>
+                        <div class="alert alert-warning" role="alert">
+                            Si tienes suerte en el sitio oficial puedes conseguir tu entrada para el evento que se realizará en Junio. Esto es solo una tarea personal.
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                  <button type="button" class="btn btn-success">Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- Modal -->
 
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
