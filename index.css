@@ -193,7 +193,7 @@
     top: 0;
 }
 #comprarTickets {
-    background-image: url(https://www.talent-land.mx/wp-content/uploads/2019/05/bg-09-certificado.png);
+    background-image: url(https://www.talent-land.mx/wp-content/uploads/2022/08/tl2023-bg-shapes-full-02.png),radial-gradient(circle at top,#00cfa9 0%,#060738 99%)!important;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
